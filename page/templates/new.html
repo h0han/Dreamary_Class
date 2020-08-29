@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+<form action="" method="post">{% csrf_token %}
+
+    {% block title %}디자이너 등록하기{% endblock %}
+    {% block link %}{% static 'css/new.css' %}{% endblock %}
+
+    
